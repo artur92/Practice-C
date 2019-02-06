@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544485288 source:/Users/apple/Documents/C-Curso/Proyectos/BitWiseOperator/main.c
+	<stdio.h>
+	<stdlib.h>
+

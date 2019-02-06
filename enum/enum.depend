@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543782540 source:/Users/apple/Documents/C-Curso/Proyectos/enum/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

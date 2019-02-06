@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545512124 source:/Users/apple/Documents/C-Curso/Proyectos/ifSwitch/main.c
+	<stdio.h>
+	<stdlib.h>
+

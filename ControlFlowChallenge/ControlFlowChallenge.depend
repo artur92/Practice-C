@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546733996 source:/Users/apple/Documents/C-Curso/Proyectos/ControlFlowChallenge/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

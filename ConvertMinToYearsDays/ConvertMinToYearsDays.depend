@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1544126450 source:/Users/apple/Documents/C-Curso/Proyectos/ConvertMinToYearsDays/main.c
+	<stdio.h>
+	<stdlib.h>
+

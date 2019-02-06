@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1544967747 source:/Users/apple/Documents/C-Curso/Proyectos/C++PegSolitare/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+
