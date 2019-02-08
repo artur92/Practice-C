@@ -1,0 +1,3 @@
+﻿cl : Línea de comandos warning D9025: invalidando '/Zm2000' con '/Zm50'
+  PrimeNumbers.cpp
+  PrimeNumbers.vcxproj -> C:\Users\Arturo May\Documents\GitHub\Curso-C\PrimeNumbers\x64\Debug\PrimeNumbers.exe

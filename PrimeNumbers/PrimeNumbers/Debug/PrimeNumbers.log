@@ -1,0 +1,3 @@
+﻿  PrimeNumbers.cpp
+c:\users\arturo may\documents\github\curso-c\primenumbers\primenumbers\primenumbers.cpp(9): warning C4101: 'PrimeNumber': variable local sin referencia
+  PrimeNumbers.vcxproj -> C:\Users\Arturo May\Documents\GitHub\Curso-C\PrimeNumbers\Debug\PrimeNumbers.exe
