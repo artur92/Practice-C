@@ -1,0 +1,12 @@
+﻿cl : Línea de comandos warning D9025: invalidando '/Zm2000' con '/Zm1000'
+  WeatheReport.cpp
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(18): warning C4838: la conversión de 'double' en 'int' requiere una conversión de restricción
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(13): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(14): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(15): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(16): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(17): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(36): warning C4476: 'printf' : carácter de tipo desconocido '/' en el especificador de formato
+c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(36): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+  c:\users\arturo may\documents\github\curso-c\weathereport\weathereport\weathereport.cpp(36): note: los marcadores de posición y sus parámetros esperan 0 argumentos variádicos, pero se proporcionaron 1
+  WeatheReport.vcxproj -> C:\Users\Arturo May\Documents\GitHub\Curso-C\WeatheReport\Debug\WeatheReport.exe
