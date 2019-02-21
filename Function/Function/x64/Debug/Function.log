@@ -1,0 +1,5 @@
+﻿  Function.cpp
+c:\users\arturo may\documents\github\curso-c\function\function\function.cpp(22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\arturo may\documents\github\curso-c\function\function\function.cpp(52): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\arturo may\documents\github\curso-c\function\function\function.cpp(62): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Function.vcxproj -> C:\Users\Arturo May\Documents\GitHub\Curso-C\Function\x64\Debug\Function.exe

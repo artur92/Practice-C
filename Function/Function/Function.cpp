@@ -8,24 +8,61 @@
 1 para calcular el valor absoluto
 1 funcion para calcular la raiz cuadrada
 */
+
+int gdc(int num1, int num2);
+float absoulteValue(float num);
+float squareRoot(float x);
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	std::cout << "Hello World!\n"; 
+	int result = gdc(150, 35);
+	printf("The gdc of 135 and 35 is %d \n", result);
+	printf("The absolute is %.2f \n", absoulteValue(-10));
+	printf("The  absolute is d %.2f \n", absoulteValue(32.1));
+	printf("The  square root of 25  is d %.2f \n", squareRoot(25));
+
+
 }
 
-int adc (int num1, int num2)
+int gdc (int num1, int num2)
 {
-	int result = 0;
+	int temp = 0;
+	while (num2 != 0)
+	{
+		temp = num1 % num2;
+		num1 = num2;
+		num2 = temp;
+	}
 
 
-	return result;
+	return num1;
 }
-float abs(float nume)
+float absoulteValue(float num)
 {
-	float result = 0;
+	if (num < 0)
+		num = -num;
 
 
-	return result;
+	return num;
+}
+
+float squareRoot(float x)
+{
+	const float epsilon = .00001;
+	float guess = 1.0;
+	
+	if (x < 0)
+	{
+		printf("Negative value \n");
+		return -1.0;
+	}
+	while (absoulteValue(guess* guess - x) > epsilon)
+	{
+		guess = (x / guess + guess) / 2.0;
+	 }
+
+	return guess;
 }
 
 

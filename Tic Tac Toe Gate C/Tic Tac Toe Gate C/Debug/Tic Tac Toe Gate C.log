@@ -1,0 +1,5 @@
+﻿  Tic Tac Toe Gate C.cpp
+c1xx : error C3859: No se pudo crear memoria virtual para PCH.
+  c1xx: note: PCH: El fragmento no se había reservado previamente.
+  c1xx: note: visite https://aka.ms/pch-help para obtener más detalles
+c1xx : fatal error C1076: límite del compilador: se ha alcanzado el límite del montón interno

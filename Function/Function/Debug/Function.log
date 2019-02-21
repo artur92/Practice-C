@@ -1,4 +1,2 @@
-﻿  pch.cpp
-  Function.cpp
-c:\users\arturo may\documents\github\curso-c\function\function\function.cpp(23): error C2382: 'abs': nueva definición; especificaciones de excepción diferentes
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(24): note: vea la declaración de 'abs'
+﻿  Function.cpp
+c1xx : fatal error C1060: espacio de montón insuficiente en el compilador
