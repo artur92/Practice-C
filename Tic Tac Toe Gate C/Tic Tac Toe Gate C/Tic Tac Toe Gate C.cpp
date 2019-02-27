@@ -16,9 +16,19 @@ void drawBoard();
 
 int main()
 {
-    
-	
 	drawBoard();
+	do
+	{
+		
+		int move = 0;
+		printf("PLayer 1 choose \n");
+		scanf_s("%d", &move);
+		printf("el valor leido es %d \n ", move);
+		
+
+	} while (checkForWin()== false);
+	
+	
 }
 
 void drawBoard()
@@ -38,6 +48,11 @@ void drawBoard()
 }
 bool checkForWin()
 {
+	if (board[0] == '0' && board[0 + 1] == '0'&& board[0 + 2] == '0')
+	{
+		return true;
+
+	}
 	return false;
 
 }
