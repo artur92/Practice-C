@@ -8,7 +8,6 @@
 
 char board[9] = { '1','2', '3', '4', '5', '6', '7', '8', '9' };
 bool checkForWin();
-void markBoard();
 void drawBoard();
 
 
@@ -17,17 +16,28 @@ void drawBoard();
 int main()
 {
 	drawBoard();
+	int player = 1;
 	do
 	{
 		
 		int move = 0;
-		printf("PLayer 1 choose \n");
+		ask:
+		printf("Choose PLayer %d \n", player);
 		scanf_s("%d", &move);
-		printf("el valor leido es %d \n ", move);
-		
+		printf("el valor leido es %d  es mayor o menor del valor permitido \n", move);
+		if (move > 9 || move <= 0 )
+		goto ask;
+		player == 1 ? board[move - 1] = '0' : board[move - 1] = 'x';		
+		drawBoard();
+		player++;
+		player > 2 ? player = 1 : player; // Ternary expresion es mas optimo usar un if pq no cumplo la segunda condicion pero esto solo es un ejemplo
+
 
 	} while (checkForWin()== false);
 	
+	checkForWin();
+	printf("Ganaste \n");
+
 	
 }
 
@@ -48,18 +58,34 @@ void drawBoard()
 }
 bool checkForWin()
 {
-	if (board[0] == '0' && board[0 + 1] == '0'&& board[0 + 2] == '0')
+	int move = 0, colum = 0;
+	if (board[0] == '0' && board[4] == '0'&&  board[8] == '0' || board[0] == 'x' && board[4] == 'x' &&  board[8] == 'x'
+		|| board[6] == 'x' && board[4] == 'x' &&  board[2] == 'x' || board[6] == '0' && board[4] == '0' &&  board[2] == '0')
 	{
+		
 		return true;
+	}
+
+	for(int i= 0; i<=9; i+=3)
+	{
+
+		if(board[i]== '0' && board[i+1] == '0'&&  board[i+2] == '0' || board[i] == 'x' && board[i + 1] == 'x' &&  board[i + 2] == 'x')
+		{
+		//printf("Entro en el for %d \n", i);
+		return true;
+		}
+		if (board[colum] == '0' && board[colum + 3] == '0'&&  board[colum + 6] == '0' || board[colum] == 'x' && board[colum + 3] == 'x' &&  board[colum + 6] == 'x')
+		{
+			//printf("Entro en el for %d \n", i);
+			return true;
+		}
+		colum++;
 
 	}
 	return false;
 
 }
-void markBoard() 
-{
 
-}
 
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
