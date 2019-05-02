@@ -1,0 +1,7 @@
+﻿  Challenge2.cpp
+c:\users\artur\documents\github\curso-c\string\challenge2\challenge2\challenge2\challenge2.cpp(1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+  c:\users\artur\documents\github\curso-c\string\challenge2\challenge2\challenge2\challenge2.cpp: note: vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
+c:\users\artur\documents\github\curso-c\string\challenge2\challenge2\challenge2\challenge2.cpp(1): warning C4603: '_CRT_SECURE_NO_WARNINGS': no se ha definido la macro o la definición es diferente después del uso del encabezado precompilado
+  c:\users\artur\documents\github\curso-c\string\challenge2\challenge2\challenge2\challenge2.cpp(1): note: Agregar la macro al encabezado precompilado en lugar de definirla aquí
+  c:\users\artur\documents\github\curso-c\string\challenge2\challenge2\challenge2\challenge2.cpp(13): note: uso del encabezado precompilado
+  Challenge2.vcxproj -> C:\Users\artur\Documents\GitHub\Curso-C\String\Challenge2\Challenge2\Debug\Challenge2.exe
